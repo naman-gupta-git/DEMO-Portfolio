@@ -98,7 +98,7 @@ button{
     background: var(--clr-rose);
     padding: 0.5em 1em;
     border-radius: 6px;
-    box-shadow: 1px 1px 5px 5px rgba(244, 63, 94, 0.6) ;
+    box-shadow: 0px 0px 14px 7px rgba(244, 63, 94, 0.6);
     transition: all 0.1s linear;
 }
 

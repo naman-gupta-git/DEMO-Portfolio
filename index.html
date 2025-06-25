@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/components/header.css">
+  <link rel="stylesheet" href="style/components/mobile.css">
+  <link rel="stylesheet" href="style/components/hero.css">
+  <link rel="stylesheet" href="style/components/about.css">
+  <link rel="stylesheet" href="style/components/featured.css">
+  <link rel="stylesheet" href="style/components/projects.css">
+  <link rel="stylesheet" href="style/components/contact.css">
+  <link rel="stylesheet" href="style/components/footer.css">
+  <link rel="stylesheet" href="style/utility.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li ><a class="header__links" href="#about"> About</a></li>
+        <li ><a class="header__links" href="#featured">Work</a></li>
+        <li ><a class="header__links" href="#projects">Projects</a></li>
+        <li><a class="header__links" href="#contact">Contact</a></li>
+        <li class="header__line"></li>
+        <li>
+          <button class="header__sun">
+            <i class="material-icons">light_mode</i>
+          </button>
+        </li>
+        <li>
+          <a class="header__resume btn" href="#">Resume</a>
+        </li>
+      </ul>
+      <button class="header__menu_icon" >
+        <i class="material-icons">menu</i>
+      </button>
+    </nav>
+  </header>
+  <!-- Mobile Navigation -->
+   <div class="mobile__nav">
+    <ul class="mobile__menu">
+      <li ><a class="mobile__links" href="#about"> About</a></li>
+      <li ><a class="mobile__links" href="#featured">Work</a></li>
+      <li ><a class=" mobile__links" href="#projects">Projects</a></li>
+      <li><a class="mobile__links" href="#contact">Contact</a></li>
+      <li class="mobile__line"></li>
+      <li>
+        <button class="mobile__sun">
+          <i class="material-icons">light_mode</i>
+        </button>
+      </li>
+      <li>
+        <a class="btn mobile__resume" href="#">Resume</a>
+      </li>
+    </ul>
+   </div>
+   <!-- End of Mobile Navigation -->
+  <main>
+    <section class="hero section container">
+      <img class="hero__user__image" src="images/user.png" alt="Profile Picture" >
+      <h1 class="hero__heading">
+        Hi! <br>I am Naman Gupta
+      </h1>
+      <p class="hero__para">
+        I'm Naman Gupta, a self-driven student with a keen interest in Computer Science, especially in programming, logical thinking, and problem-solving. I enjoy exploring how technology works and love creating things using code. Whether it's developing small projects or understanding complex algorithms, i'm always excited to learn more. Alongside CS, i stay sharp with chess and stay active through sports like football and badminton. This portfolio reflexts my curiosity, discipline, and passion for continuous learning in the world of tech and beyond.
+      </p>
+      <a class="hero__link btn" href="#">Reach Out</a>      
+    </section>
+    <section id="about" class="about section container">
+      <div class="about__content">
+      <h1 class="section__heading about__heading">
+        About
+      </h1>
+      <p class="about__para">
+        Hello! I'm Naman Gupta, a focused and enthusiastic student with a deep interest in Mathematics and Computer Science. I enjoy exploring the logic behind numbers, algorithms, and systems, and I'm particularly drawn to programming and problem-solving. From writing simple code to thinding through challenging logic puzzles, I find joy in learning how things work and how technology can be used to solve real-world problems.
+      </p>
+      <p  class="about__para">
+        Chess is one of my favorite pastimes- it sharpens my mind, improves my decision-making, and teaches me patience and planning. I also enjoy playing football and badminton, which help me stay active, disciplined, and balanced. Whether I'm working on academic projects or playing a sport, I always strive to give my best and improve with each attempt.
+      </p>
+      <p class="about__para">
+        I prefer working independently, as it allows me to focus deeply and take full responsibility for my work. I'm self-motivated, curious, and always open to learning something new, This portfolio showcases my journey, interests, and goals- reflecting my commitment to personal growth, creativity, and excellence in everything I do.
+      </p>
+      <hr class="about__line">
+      <h2 class="about__list_heading">
+        Highlights
+      </h2>
+      <div class="about__lists">
+          <ul class="about__list">
+            <li class="about__li">Tech Curious</li>
+            <li class="about__li">CS Enthusiast</li>
+            <li class="about__li">Passionate Coder</li>
+          </ul>
+          <ul class="about__list">
+            <li class="about__li">Strategic Thinker</li>
+            <li class="about__li">Self-learner</li>
+            <li class="about__li">Always improving</li>
+          </ul>
+      </div>
+      </div>
+      <div class="about__image">
+        <img class="about_image" src="images/user.png" alt="My picture">
+      </div>
+    </section>
+    <section id="featured" class="featured section container" >
+      <h2 class="featured__subtitle">
+        Featured Project
+      </h2>
+      <div class="featured__title_wrapper">
+        <h1 class="featured__title section__heading">Code. Design. Repeat</h1>
+        <a class="featured__link" href="#">
+          <i class="material-icons">link</i>
+        </a>
+      </div>
+      <p class="featured__discription">
+        I've built a range of web projects that showcase my skills in HTML, CSS, and JavaScript. These include a responsive personal portfolio with light/dark mode, a gradient-themed design using advanced CSS, and interactive toggle button demonstrating JavaScript DOM manipulation. I've also explored hover effects,animations, and layout design to enhance user experience. Each project reflects my creativity, technical growth, and passion for front-end development.
+      </p>
+      <div class="featured__list_wrapper">
+        <div class="featured__lists">
+          <h2 class="featured__list_title">
+            Tech Stack
+          </h2>
+          <ul class="featured__list">
+            <li class="featured__list_item">HTML5</li>
+            <li class="featured__list_item">CSS3</li>
+            <li class="featured__list_item">JavaScript</li>
+            <li class="featured__list_item">VS Code</li>
+            <li class="featured__list_item">GitHUb</li>
+            <li class="featured__list_item">Netlify</li>
+          </ul>
+        </div>
+        <div class="featured__lists">
+          <h2 class="featured__list_title">
+            Project Type
+          </h2>
+          <ul class="featured__list">
+            <li class="featured__list_item">Portfolio</li>
+          </ul>
+        </div>
+        <div class="featured__lists">
+          <h2 class="featured__list_title">
+            Time Line
+          </h2>
+          <ul class="featured__list">
+            <li class="featured__list_item">June 2025-Present</li>
+          </ul>
+        </div>
+      </div>
+      <div class="featured__img_wrapper">
+        <div class="featured__img_container">
+          <img src="images/Featured/one.png" alt="My Projects"> 
+        </div>
+        <div class="featured__img_container">
+          <img src="images/Featured/two.png" alt="My Projects"> 
+        </div>
+        <div class="featured__img_container">
+          <img src="images/featured/three.png" alt="My Projects"> 
+        </div>
+        <div class="featured__img_container">
+          <img src="images/featured/four.png" alt="My Projects"> 
+        </div>
+        <div class="featured__img_container">
+          <img src="images/featured/five.png" alt="My Projects"> 
+        </div>
+        <div class="featured__img_container">
+          <img src="images/featured/six.png" alt="My Projects"> 
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects container section">
+      <div class="projects__top">
+        <h2 class="projects__top_heading section__heading">
+          Projects
+        </h2>
+        <p class="projects__top_description">
+          This is <a href="#"><strong>my personal web portfolio</strong></a>
+          built using HTML, CSS, and JavaScript. It showcases my featured projects, technical skills, and creative experiments with web design. From interactive elements to smooth gradients and animations, this site reflects my passionj for front-end development and learning through hands-on practice.
+        </p>
+      </div>
+      <div class="projects__bottom">
+
+        <div class="projects__wraps">
+          <div class="projects__item projects__img project__image1">
+            <img src="images/Featured/one.png">
+          </div>
+          <div class="projects__item project__content1">
+            <h4>
+              Bold & Beautiful
+            </h4>
+            <p>
+              Lorem ipsum dolor, sit amet coning elit. Doloribus, ipsam. Consequuntur dolorem es at esse magnam suscipit quidem?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque iure atque, aliquam itaque, autem voluptas minima sint tenetur et nam natus optio repellendus ex reprehenderit corporis temporibus a id!
+            </p>
+            <button class="btn">Website</button>
+          </div>
+        </div>
+        <div class="projects__wraps">
+          <div class="projects__item projects__img project__image2">
+            <img src="images/Featured/two.png">
+          </div>
+          <div class="projects__item project__content2">
+            <h4>
+              Shape Canvas
+            </h4>
+            <p>
+              Lorem ipsum dolor, sit amet coning elit. Doloribus, ipsam. Consequuntur dolorem es at esse magnam suscipit quidem?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque iure atque, aliquam itaque, autem voluptas minima sint tenetur et nam natus optio repellendus ex reprehenderit corporis temporibus a id!
+            </p>
+            <button class="btn">Website</button>
+          </div>
+        </div>
+        <div class="projects__wraps">
+          <div class="projects__item projects__img project__image3">
+            <img src="images/Featured/three.png">
+          </div>
+          <div class="projects__item project__content3">
+            <h4>
+              Polygon Power
+            </h4>
+            <p>
+              Lorem ipsum dolor, sit amet coning elit. Doloribus, ipsam. Consequuntur dolorem es at esse magnam suscipit quidem?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque iure atque, aliquam itaque, autem voluptas minima sint tenetur et nam natus optio repellendus ex reprehenderit corporis temporibus a id!
+            </p>
+            <button class="btn">Website</button>
+          </div>
+        </div>
+        <div class="projects__wraps">
+          <div class="projects__item projects__img project__image4">
+            <img src="images/Featured/four.png">
+          </div>
+          <div class="projects__item project__content4">
+            <h4>
+              Flying Triangles
+            </h4>
+            <p>
+              Lorem ipsum dolor, sit amet coning elit. Doloribus, ipsam. Consequuntur dolorem es at esse magnam suscipit quidem?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque iure atque, aliquam itaque, autem voluptas minima sint tenetur et nam natus optio repellendus ex reprehenderit corporis temporibus a id!
+            </p>
+            <button class="btn">Website</button>
+          </div>
+        </div>
+        <div class="projects__wraps">
+          <div class="projects__item projects__img project__image5">
+            <img src="images/Featured/five.png">
+          </div>
+          <div class="projects__item project__content5">
+            <h4>
+              Dark Waves
+            </h4>
+            <p>
+              Lorem ipsum dolor, sit amet coning elit. Doloribus, ipsam. Consequuntur dolorem es at esse magnam suscipit quidem?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque iure atque, aliquam itaque, autem voluptas minima sint tenetur et nam natus optio repellendus ex reprehenderit corporis temporibus a id!
+            </p>
+            <button class="btn">Website</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section  id="contact" class="contact container section">
+      <h2 class="section__heading contact__title">
+        Get in contact
+      </h2>
+      <p>
+        I'd love to heat from you! Whether you have question, feedback, or just want to connect, feel free to reach out using the mail below.
+      </p>
+      <a href="#"   class="contact__btn btn ">
+        Contact Me
+      </a>
+    </section>
+  </main>
+  <footer  class="footer section container">
+    <h3 class="footer__title">
+      ~My Portfolio~
+    </h3>
+  </footer>
+<script src="src/script.js"></script>
+<script src="src/mobile.js"></script>
+<script src="src/themeToggle.js"></script>
+</body>
+</html>

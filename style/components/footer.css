@@ -1,0 +1,9 @@
+.footer__title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: var(--size-xs);
+    color: var(--clr-slate600);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    user-select: none;
+}

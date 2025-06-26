@@ -24,8 +24,8 @@
 
 .hero__para{
     color: var(--clr-slate600);
-    font-size: var(--size-xxl);
-    font-weight:600;
+    font-size: var(--size-s);
+    font-weight: 600;
     max-width: 60ch;
 }
 
@@ -45,6 +45,9 @@
 .hero__heading{
     font-size: var(--size-5xl);
 }
+.hero__para{
+    font-size: var(--size-base);
+}
 }
 
 /* l */
@@ -54,5 +57,22 @@
 }
 .hero__heading{
     font-size: var(--size-6xl);
+}
+.hero__para{
+    font-size: var(--size-l);
+}
+}
+
+/* xl */
+@media (min-width:1280px) {
+.hero__user__image{
+    width: 16rem;
+}
+.hero__heading{
+    font-size: var(--size-7xl);
+    letter-spacing: -0.05em;
+}
+.hero__para{
+    font-size: var(--size-xl);
 }
 }

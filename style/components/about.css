@@ -58,6 +58,7 @@
 
 .about_image{
     border-radius: 50%;
+    width: 10em;
 }
 
 /* xs */
@@ -69,6 +70,9 @@
 .about__list_heading{
     width: 80%;
     margin: 0 auto;
+}
+.about_image{
+    width: 12em;
 }
 }
 
